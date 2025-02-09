@@ -1,0 +1,5 @@
+hello world, a pasta '.git' e de controle interno do git
+
+# comandos 
+
+git barnch -m nome_atual novo_nome
