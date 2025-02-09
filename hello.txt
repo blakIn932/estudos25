@@ -2,4 +2,30 @@ hello world, a pasta '.git' e de controle interno do git
 
 # comandos 
 
-git barnch -m nome_atual novo_nome
+# 1 - git barnch -m nome_atual novo_nome
+## renomear branch, nao precisa remover ela ao renomear ja fica certo 
+
+# 2 - rm -fr .git/
+## remover a pasta git, remove tudo, historico, trackeamento, tudo e removido 
+
+# 3 - git add .
+## adicionamos a stagging para commit, '.' adiciona todos 
+
+# 4 - git rm --cached arquivo.extensao
+##  serve para tirar o arquivo da stage
+
+# 5 - git status  | grep hello
+## eu procuro pelo status dos arquivos, se ele foi modificado aparece modified e senao esta trackaeado aparece '??'
+
+# 6 - git status --short | grep '??'
+## mostra arquivos nao trackeados 
+
+# 7- git rm --cached -r .
+##  remove todos os arquivos em stage
+
+#### Estados 
+# untracked: nao rastreado
+# staged: preparado
+# commit: git conhece esta dentro do projeto 
+# unmodified: nao modificado
+# modified: modificado
