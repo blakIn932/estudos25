@@ -27,5 +27,32 @@ hello world, a pasta '.git' e de controle interno do git
 # untracked: nao rastreado
 # staged: preparado
 # commit: git conhece esta dentro do projeto 
-# unmodified: nao modificado
+# unmodified: nao modificado, git nao lista arquivo sem alteracoes
 # modified: modificado
+# **** Se eu fizer um 'git add .' e dps modificar o arquivo o que esta sendo modificado nao entra em commit, pois ele so manda para commit o q esta em stage 
+
+# 8 - git diff id_commit
+## mostra as alteracoes de cada arquivo 
+
+# 9 - git diff id_commit | grep -A 20 hello
+## -A 20 sao 20 linhas q ele vai mostrar, hello nome do arquivo q ele vai buscar no diff
+# ***** tem q ser o id do commit senao ele pega work Area 
+
+# 10 - git log
+## git lista em ordem decrescente, o id e gerado pelo char1 
+# *** head indica o o commit mais recente
+
+# 11 - git log  --oneline 
+## mostra o id abreviado e as informacoes reduzidas(mensagem e has do commit)
+# git log --oneline -1 : pego abreviado 1 commit 
+
+# 12 - git log -1(Numero de commits q quero ver)
+## ele olha de forma decrescente 
+
+# 13 - git log -p -2
+## ele mostra tanto o log como o diff
+
+
+# 14 - git log --stat 
+## ele mostra de resumo do q foi feito em cada um commit e dentro dos commits quais arquivos 
+# tiveram insertion,delection 
