@@ -1,4 +1,0 @@
-#alteracoes de commits 
-
-# git commit --amend -m "Nova mensagem"
-## alterando mensagem do commit 
