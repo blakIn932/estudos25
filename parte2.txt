@@ -1,0 +1,55 @@
+#alteracoes de commits 
+
+# git commit --amend -m "Nova mensagem"
+## alterando mensagem do commit, ele muda o hash do comitt tbm, altera do commit na head 
+
+# git commit --amend  --no-edit
+## digamos que esqueci algum arquivo, posso dar um git add arq.ext e dps executar o amend, no edit e para manter a mensagem do commit
+
+# git checkout id_commit 
+## entra no commit no  
+
+# gitignore pasta so sera monitorada se tiver arquivo la dentro
+## para ignorar o diretorio e arquivo basta **nome_diretorio
+
+git checkout arquivo.extensao
+# eu posso usar para trazer a versao do ultimo commit 
+
+# git  clean -f
+## remove arquivos nao rastreados
+
+git tm --cached nome do arquivo
+# desfazendo mudancas, removendo da staggin area e perde as altercoes feitas 
+
+# git rm --cached arq1.txt arq2.txt
+## remove multiplos arquivos
+
+# git restore --staged nome arquivo.ext
+## so remove se tiver historico commit, senao so o git rm funcionara mas nao perde as alteracoes feitas, serve para remover da stage o que foi adicionado
+
+# git log --after="2025-02-10"(posso usar o before para antes)
+## pega commits com datas posteriores 
+
+# git reflog 
+## mostra os commits se sofreram amend 
+
+# git log --since="2 days ago"
+# git log --since="3 hours ago" --pretty=fullerq
+
+## desde de 2 dias atras, posso ver em meses ou dias
+
+
+# git log --author="nome"
+## nem precisa ser todo ele faz um like 
+
+# git mv nome_arquivo novo_nome_arquivo
+## renomeia o arquivo, renomeando pelo git ele é renomeado pronto para comitt, no editor deleta e gera um novo e precisa adicionar a staged
+
+# git diff --staged
+## compara com o q esta em staged com utlimo commit 
+
+#  git diff 5efe051..472a43a
+## pega a diferença de um commit ate o outro, do mais velho..mais novo, nessa ordem
+
+# git --amend -m 
+## adiciona alem de nova mensagem varias alteracoes se quiser a um commit
