@@ -1,2 +1,2 @@
 # estudos25
-estudos
+ajustado o arquivo
