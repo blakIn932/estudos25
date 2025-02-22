@@ -18,7 +18,7 @@ git checkout arquivo.extensao
 # git  clean -f
 ## remove arquivos nao rastreados
 
-git tm --cached nome do arquivo
+git rm --cached nome do arquivo
 # desfazendo mudancas, removendo da staggin area e perde as altercoes feitas 
 
 # git rm --cached arq1.txt arq2.txt
@@ -51,5 +51,9 @@ git tm --cached nome do arquivo
 #  git diff 5efe051..472a43a
 ## pega a diferença de um commit ate o outro, do mais velho..mais novo, nessa ordem
 
-# git --amend -m 
-## adiciona alem de nova mensagem varias alteracoes se quiser a um commit
+# git --amend -m "msg" 
+## adiciona alem de nova mensagem varias alteracoes se quiser a um commit, nescessario dar um git add . antes
+
+# git revert id_commit 
+## serve para reverter o commit, quando nao quero aquele commit ele, descarta alteracoes e cria um novo commit na frente sem aquelas alteracoes
+## para reverter o rever basta pegar o commit do revert e fazer um git revert
