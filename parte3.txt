@@ -29,7 +29,7 @@
 
 
 # git feth 
-## permite um rebase e nao faz um merge
+## permite um rebase e nao faz um merge, ele traz o
 
 
 
