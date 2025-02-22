@@ -5,11 +5,16 @@
 
 # \ sao commits, apartir desses commits eles sao iguais 
 
+# git branch -D 
+## deleta a branch, senao tiver o merge se tiver manda o minusculo
 
+# git merge 
+## cria um merge, nescessario ir para a vranch destino primeiro e dps git merge branch 
+# git checkout dev
+# git merge funcionalidadeB
+# esse merge vai para a dev 
 
-
-
-
+## ponto comum entre as branchs é a base
 
 
 
