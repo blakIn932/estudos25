@@ -16,7 +16,8 @@
 
 ## ponto comum entre as branchs é a base
 
-
+# git clone https://github.com/blakIn932/estudos25.git .
+## serve para clonar repositorio dentro da minha pasta local por isso .
 
 
 
