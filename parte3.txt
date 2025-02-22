@@ -24,7 +24,8 @@
 # git push origin branch
 ## tem q estar na branch q quer fazer o push ou seja nescessario o checkout e dps faz o push 
 
-
+# git pull nome_branch
+# serve para sincronizar com repositorio remoto, pega o ultimo commit da branch
 
 
 
