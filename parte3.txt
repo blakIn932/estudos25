@@ -28,7 +28,8 @@
 # serve para sincronizar com repositorio remoto, pega o ultimo commit da branch
 
 
-
+# git feth 
+## permite um rebase e nao faz um merge
 
 
 
