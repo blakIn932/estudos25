@@ -40,9 +40,8 @@
 ## tags 
 ## versoes estaveis do projeto, nao recebe commits somente uma versao
 ## git tag v1.0.0
-
-
-
+## nao tem como commitar em tag porem eu posso dar um checkout nas tags 
+## posso sincronizar com a tag ou seja com a versao do software  git pull origin v1.0.0
 
 
 
