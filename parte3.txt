@@ -28,15 +28,18 @@
 # serve para sincronizar com repositorio remoto, pega o ultimo commit da branch
 
 
-# git feth 
-## permite um rebase e nao faz um merge, ele traz o
+# git fetch origin branch 
+## permite um rebase e nao faz um merge, ele traz os arquivos e dps q ver se esta certo faz o rebase
+## git rebase origin/nome branch 
 
+# git pull origin branch 
 
+# repositorio bare 
+## centralizador, nao depende do github,gitlab
 
-
-
-
-
+## tags 
+## versoes estaveis do projeto, nao recebe commits somente uma versao
+## git tag v1.0.0
 
 
 
