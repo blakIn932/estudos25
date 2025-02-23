@@ -65,3 +65,4 @@ git rm --cached nome do arquivo
 
 # issue 
 ## problemas ou tarefas a resolver no projeto
+
