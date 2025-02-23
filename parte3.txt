@@ -18,19 +18,28 @@
 
 # git clone https://github.com/blakIn932/estudos25.git .
 ## serve para clonar repositorio dentro da minha pasta local por isso .
+## nescessario primeiro clonar o repositorio, pois dai sincroniza o repo e dpois enviar atulizacao na propria main pois nao tera como abrir
+# uma pr sem hisorico para comparar ai dps vc consegue fazer push para outras branch 
+
+# git push origin branch
+## tem q estar na branch q quer fazer o push ou seja nescessario o checkout e dps faz o push 
+
+# git pull nome_branch
+# serve para sincronizar com repositorio remoto, pega o ultimo commit da branch
 
 
+# git fetch origin branch 
+## permite um rebase e nao faz um merge, ele traz os arquivos e dps q ver se esta certo faz o rebase
+## git rebase origin/nome branch 
 
+# git pull origin branch 
 
+# repositorio bare 
+## centralizador, nao depende do github,gitlab
 
-
-
-
-
-
-
-
-
+## tags 
+## versoes estaveis do projeto, nao recebe commits somente uma versao
+## git tag v1.0.0
 
 
 
