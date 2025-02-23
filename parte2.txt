@@ -65,4 +65,24 @@ git rm --cached nome do arquivo
 
 # issue 
 ## problemas ou tarefas a resolver no projeto
+# convencao
+# Fixes #_id_commit: Quando o commit for mesclado, a issue id será fechada, bug
+# Resolves #_id_commit:atualização ou tarefa de infra
+# Closes #_id_commit:tarefa em geral
+# git commit -m "Fixes #id_issue: msg"
+
+## convencoes  
+feat: Nova funcionalidade
+fix: Correção de erro
+chore: Manutenção ou tarefas que não alteram funcionalidades
+docs: Documentação
+style: Estilo (indentação, espaçamento, etc.)
+refactor: Refatoração de código sem mudança de funcionalidade
+perf: Melhorias de performance
+test: Alterações em testes
+ci: Alterações no CI/CD
+build: Alterações no sistema de build
+
+git commit -m "build(webpack): atualiza o arquivo de configuração do webpack, Closes #1"
+
 
