@@ -46,11 +46,28 @@
 # para editar a tag basta dar um checkout e criar uma branch apartir dela 
 
 
+# envia ultima tag
+## git push origin --tags 
 
 
+# enviar tag especifica
+## git push origin v1.0
+
+# git revert id_commit
+## quando um commit q eu fiz ele reverte e cria um commit novo revertendo o que fiz naquele commit, descartando o antigo e adicionando um novo na linha do tempo 
+## mantem a linha do tempo
+
+# git reset id_commit
+## apaga a linha do tempo, sobreescrevendo a linha do tempo, muito perigoso, branch de feature ou local 
+## reset so quando nao subi ainda para o servidor 
 
 
-
+# git reset --hard id_commit  
+## --hard: apaga tudo 
+## --mixed: apaga tudo mas deixa os arquivos no diretorio 
+## --soft: pega o q aconteceu naquele commit para frente e deixa em stage, util para modificar o commit
+## precisa ser o commit anterior ao meu commit pois o git reset passara a apontar para o commit que eu vou passar no comando git reset --hard id_commit 
+# git reflog volta atras
 
 
 
