@@ -62,3 +62,6 @@ git rm --cached nome do arquivo
 ## serve para restaurar o arquivo no ultimo commit, digamos que quero commitar varios arquivos
 ## e um dos meus arquivos nao vou levar a alteração para commit entao eu basicamente aplico um restore q vai restaurar o ultimo commit nesse arquivo e tirar ele de stage 
 ## dai commit so o que quero 
+
+# issue 
+## problemas ou tarefas a resolver no projeto

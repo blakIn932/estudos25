@@ -65,7 +65,8 @@
 # git reset --hard id_commit  
 ## --hard: apaga tudo 
 ## --mixed: apaga tudo mas deixa os arquivos no diretorio 
-## --soft: pega o q aconteceu naquele commit para frente e deixa em stage 
+## --soft: pega o q aconteceu naquele commit para frente e deixa em stage, util para modificar o commit
+## precisa ser o commit anterior ao meu commit pois o git reset passara a apontar para o commit que eu vou passar no comando git reset --hard id_commit 
 # git reflog volta atras
 
 
